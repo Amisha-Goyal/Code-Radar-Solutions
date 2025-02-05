@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int m,n;
-    scanf("%d %d",&m,&n);
-    if(m<0 && n<0);
-    printf("False");
-    else
-    printf("True");
-    return 0;
+   int m,n;
+   scanf("%d %d",&m,&n);
+   if(m<=0 && n<=0)
+   printf("False");
+   else
+   printf("True");
+   return 0;
 }
