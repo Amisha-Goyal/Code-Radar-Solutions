@@ -2,7 +2,7 @@
 int main(){
     int m,n,result;
     scanf("%d %d",&m,&n);
-    result=mXORn;
+    result=m XOR n;
     printf("%d",result);
     return 0;
 }
