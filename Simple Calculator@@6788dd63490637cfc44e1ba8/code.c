@@ -2,7 +2,7 @@
 int main(){
     int m,n,sum,diff,multiply,div;
     char ch;
-    scanf("%d %d %c",&m,&n,&c);
+    scanf("%d %d %c",&m,&n,&ch);
     if(ch=='+'){
         sum=a+b;
         printf("%d",sum);
