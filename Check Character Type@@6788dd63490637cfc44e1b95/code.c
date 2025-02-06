@@ -11,7 +11,7 @@ int main(){
     else if(ch=='@'||ch=='%'){
     printf("Speacil Character");}
     else{
-        printf("Consonant")
+        printf("Consonant");
     }
     return 0;
 }
