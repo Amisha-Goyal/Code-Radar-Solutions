@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int m,n,sum,diff,multiply,div;
+    int a,b,sum,diff,multiply,div;
     char ch;
-    scanf("%d %d %c",&m,&n,&ch);
+    scanf("%d %d %c",&a,&b,&ch);
     if(ch=='+'){
         sum=a+b;
         printf("%d",sum);
@@ -16,7 +16,7 @@ int main(){
         printf("%d",myltiply);
     }
     else if(ch=='/'){
-        div=m/n;
+        div=a/b;
         printf("%d",div);
     }
     return 0;
