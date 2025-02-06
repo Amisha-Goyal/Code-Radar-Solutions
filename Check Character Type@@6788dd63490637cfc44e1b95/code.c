@@ -8,7 +8,7 @@ int main(){
     else if(ch=='0' || ch<='9'){
         printf("Digit");
     }
-    else if(ch=='@'||ch=='%'){
+    else if(ch=='@'){
     printf("Speacil Character");}
     else{
         printf("Consonant");
