@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include<math.h>
-
 int main() {
     int m,n,c;
     scanf("%d %d",&m,&n);
@@ -11,5 +8,4 @@ int main() {
     else{
         printf("No");
     }
-    return 0;
-}
+    return 0;}
