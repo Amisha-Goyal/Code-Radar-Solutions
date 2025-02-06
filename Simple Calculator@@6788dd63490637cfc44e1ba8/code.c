@@ -13,7 +13,7 @@ int main(){
     }
     else if(ch=='*'){
         multiply=a*b;
-        printf("%d",myltiply);
+        printf("%d",multiply);
     }
     else if(ch=='/'){
         div=a/b;
