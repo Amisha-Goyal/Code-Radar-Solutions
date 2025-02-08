@@ -8,7 +8,7 @@ int main(){
     if(m==c||n==a||o==b){
         printf("Valid");
     }
-    else if(m!==c||n!=a||o!=b){
+    else if(m!=c||n!=a||o!=b){
         printf("Invalid");
     }
     return 0;
