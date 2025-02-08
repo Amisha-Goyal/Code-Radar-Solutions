@@ -8,8 +8,8 @@ int main(){
     if(m==c||n==a||o==b){
         printf("Valid");
     }
-    else{
+    else
         printf("Invalid");
-    }
+    
     return 0;
 }
