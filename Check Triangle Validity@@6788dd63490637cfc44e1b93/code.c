@@ -5,10 +5,10 @@ int main(){
     m=a*a+b*b;
     n=b*b+c*c;
     o=a*a+c*c;
-    if(m==c||n==a||o==b){
+    if(m==c*c||n==a*a||o==b*b){
         printf("Valid");
     }
-    else if(m!=c||n!=a||o!=b){
+    else if(m!=c*c||n!=a*a||o!=b*b){
         printf("Invalid");
     }
     return 0;
