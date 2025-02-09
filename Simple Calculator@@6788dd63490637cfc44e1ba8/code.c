@@ -8,15 +8,15 @@ int main(){
         printf("%d",sum);
 
     }
-    else if(ch=='-'){
+    if(ch=='-'){
         sub=a-b;
         printf("%d",sub);
     }
-    else if(ch=='*'){
+    if(ch=='*'){
         multi=a*b;
         printf("%d",multi);
     }
-    else if(ch=='/'){
+    if(ch=='/'){
         div=a/b;
         printf("%d",div);
     }
