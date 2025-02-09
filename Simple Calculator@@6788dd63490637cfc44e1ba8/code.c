@@ -5,20 +5,20 @@ int main(){
     scanf("%d %d %c",&a,&b,&ch);
     if(ch=='+'){
         sum=a+b;
-        printf("%d",sum);
+        printf("%d\n",sum);
 
     }
-    if(ch=='-'){
+    else if(ch=='-'){
         sub=a-b;
-        printf("%d",sub);
+        printf("%d\n",sub);
     }
-    if(ch=='*'){
+    else if(ch=='*'){
         multi=a*b;
-        printf("%d",multi);
+        printf("%d\n",multi);
     }
-    if(ch=='/'){
+    else if(ch=='/'){
         div=a/b;
-        printf("%d",div);
+        printf("%d\n",div);
     }
     return 0;
 }
