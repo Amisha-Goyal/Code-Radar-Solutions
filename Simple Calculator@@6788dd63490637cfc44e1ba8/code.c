@@ -20,4 +20,5 @@ int main(){
         div=a/b;
         printf("%d",div);
     }
+    return 0;
 }
