@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<math.h>
+
 int main() {
     int m,n,c;
     scanf("%d %d",&m,&n);
-    c=pow(n,2);
+    c=n*n;
     if(m==c){
         printf("Yes");
     }
