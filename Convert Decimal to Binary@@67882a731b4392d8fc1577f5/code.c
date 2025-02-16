@@ -7,7 +7,7 @@ int main() {
     scanf("%d",&n);
     while(n!=0){
         remainder=n%2;
-        digit=digit+remainder*pow(i,2);
+        digit=digit+remainder*pow(10,i);
         n=n/2;
         i++;
     }
