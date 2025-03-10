@@ -1,4 +1,4 @@
-isPrime(int n ){
+int isPrime(int n ){
     int c;
     for(int i=0;i<n;i++){
         c=n%i;
