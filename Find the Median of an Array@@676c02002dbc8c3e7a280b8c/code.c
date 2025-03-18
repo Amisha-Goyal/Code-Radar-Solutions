@@ -6,7 +6,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if(n%2==0){
-            median=(arr[n/2]+arr[n/2+1])/2;
+            median=(arr[n/2]+arr[n/2-1])/2;
             
     }
     else{
