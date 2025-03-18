@@ -9,6 +9,9 @@ int main(){
         if(arr[i]==n2){
             count++;
         }
+        if(arr[i]!=n2){
+            count=0;
+        }
         else{
             count=1;
         }
