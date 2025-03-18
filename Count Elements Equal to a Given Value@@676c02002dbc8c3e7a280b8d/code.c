@@ -5,7 +5,7 @@ int main(){
     for(int i=0;i<n1;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n1;i++){
         if(arr[i]==n2){
             count++
         }
