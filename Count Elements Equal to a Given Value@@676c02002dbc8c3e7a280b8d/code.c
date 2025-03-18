@@ -7,7 +7,7 @@ int main(){
     }
     for(int i=0;i<n1;i++){
         if(arr[i]==n2){
-            count++
+            count++;
         }
         else{
             count=1;
