@@ -15,7 +15,7 @@ int main(){
         }
         
     }
-    printf("%d\n",count)
+    printf("%d\n",count);
     
     
 }
