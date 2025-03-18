@@ -12,7 +12,7 @@ int main(){
     else{
             median=arr[n/2+1];
     }
-    printf("%d",median)
+    printf("%d",median);
     
     return 0;
 }
