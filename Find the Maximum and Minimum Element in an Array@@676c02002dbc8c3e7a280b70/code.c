@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,arr[20],small;
+    int n,arr[20],small,large;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
