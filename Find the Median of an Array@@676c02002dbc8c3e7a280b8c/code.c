@@ -10,7 +10,7 @@ int main(){
             
     }
     else{
-            median=arr[n/2];
+            median=arr[n/2 +1];
     }
     printf("%d",median);
     
