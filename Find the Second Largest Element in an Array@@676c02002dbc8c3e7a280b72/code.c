@@ -21,7 +21,7 @@ int main(){
             
         }
     }
-    if(n==2){
+    if(n==2 || arr[i]==secondno){
         printf("-1");
     }
     printf("%d",secondno);
