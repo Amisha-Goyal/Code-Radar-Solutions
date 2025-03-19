@@ -15,7 +15,7 @@ int main(){
     secondno=arr[n-pos-1];
     if(n==2){
         printf("-1");
-        break;
+       
     }
     for(int i=0;i<n;i++){
         if(i!=pos){
