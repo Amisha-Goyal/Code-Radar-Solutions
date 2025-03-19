@@ -21,6 +21,7 @@ int main(){
         if(i!=pos){
             if(arr[i]>secondno){
                 secondno=arr[i];
+                printf("%d",secondno);
                 break;
             }
             if(arr[i]==secondno){
@@ -32,7 +33,7 @@ int main(){
 
     }
     
-    printf("%d",secondno);
+    // printf("%d",secondno);
     return 0;
 
 }
