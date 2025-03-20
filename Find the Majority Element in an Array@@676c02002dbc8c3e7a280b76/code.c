@@ -18,7 +18,7 @@ int main(){
     if(count>n/2){
         printf("%d",no);
     }
-    else{
+    if(count==n/2){
         printf("-1");
     }
 }
