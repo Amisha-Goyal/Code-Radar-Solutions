@@ -10,6 +10,7 @@ int main(){
             if(arr[i]==arr[j]){
                 count++;
                 no=arr[i];
+                break;
 
 
             }
