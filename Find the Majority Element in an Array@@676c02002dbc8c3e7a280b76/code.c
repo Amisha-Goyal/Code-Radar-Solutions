@@ -17,10 +17,11 @@ int main(){
         printf("%d",no);
     }
     }
+    }
     else{
         printf("-1");
     }
    
     
-}
+
 }
