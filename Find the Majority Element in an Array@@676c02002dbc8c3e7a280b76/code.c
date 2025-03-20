@@ -11,15 +11,15 @@ int main(){
                 count++;
                 no=arr[i];
                 break;
-
-
             }
+
         }
-    }
-    if(count>n/2){
-        printf("%d",no);
     }
     if(count==n/2){
         printf("-1");
     }
+    if(count>n/2){
+        printf("%d",no);
+    }
+    
 }
