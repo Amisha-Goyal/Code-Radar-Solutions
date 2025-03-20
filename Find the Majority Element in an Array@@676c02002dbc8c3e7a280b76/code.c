@@ -9,9 +9,7 @@ int main(){
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
-                no=arr[i];
-                break;
-            }
+                
 
         }
     }
@@ -19,7 +17,9 @@ int main(){
         printf("-1");
     }
     if(count>n/2){
+        no=arr[i];
         printf("%d",no);
     }
     
+}
 }
