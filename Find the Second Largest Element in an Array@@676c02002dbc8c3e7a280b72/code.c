@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,arr[20],large,pos,secondno;
+    int n,arr[20],large,pos,secondno,sort;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -21,7 +21,7 @@ int main(){
         if(i!=pos){
             if(arr[i]>secondno){
                 secondno=arr[i];
-                printf("%d",secondno);
+                sort=1
                 break;
             }
             if(arr[i]==secondno){
@@ -32,7 +32,9 @@ int main(){
         
 
     }
-    
+    if(sort){
+        printf("%d",secondno);
+    }
     // printf("%d",secondno);
     return 0;
 
