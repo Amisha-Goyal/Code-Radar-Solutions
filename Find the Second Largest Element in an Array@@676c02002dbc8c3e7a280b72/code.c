@@ -13,10 +13,7 @@ int main(){
         }
     }
     secondno=arr[n-pos-1];
-    if(n<=2){
-        printf("-1");
-       
-    }
+    
     for(int i=0;i<n-1;i++){
         if(i!=pos){
             if(arr[i]>secondno){
