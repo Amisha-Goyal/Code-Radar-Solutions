@@ -9,18 +9,19 @@ int main(){
         for(int j=0;j<n-1;j++){
             if(arr[i]==arr[j]){
                 count++;
+                no=arr[i];
                 
 
         }
-        if(count>n/2){
-        no=arr[i];
+       
+    }
+    }
+    if(count>n/2){
         printf("%d",no);
     }
-    }
-    }
-   
-    printf("-1");
-    
+    else{
+         printf("-1");}
+}
    
     
 
