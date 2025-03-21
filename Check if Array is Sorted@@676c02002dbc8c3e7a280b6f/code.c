@@ -15,7 +15,7 @@ int main(){
     if(sort|| n==1){
         printf("Sorted");
     }
-    if(sort==0){
+    if(sort==0||n!=1){
         printf("Not Sorted");
 
     }
