@@ -6,6 +6,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&target);
-    printf("%d",arr[target]);
+    for(int i=0;i<n-1;i++){
+        if(arr[target]=arr[i]){
+             printf("%d",arr[target]);
+             break;
+
+        }
+    }
+   
     return 0;
 }
