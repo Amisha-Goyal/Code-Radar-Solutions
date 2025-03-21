@@ -21,7 +21,7 @@ int main(){
         if(i!=pos){
             if(arr[i]>secondno){
                 secondno=arr[i];
-                sort=1
+                sort=1;
                 break;
             }
             if(arr[i]==secondno){
