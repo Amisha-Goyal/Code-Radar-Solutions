@@ -21,7 +21,7 @@ int main(){
         if(i!=pos){
             if(arr[i]>secondno){
                 secondno=arr[i];
-                sort=1;
+                printf("%d",secondno);
                 break;
             }
             if(arr[i]==secondno){
@@ -32,9 +32,7 @@ int main(){
         
 
     }
-    if(sort){
-        printf("%d",secondno);
-    }
+   
     // printf("%d",secondno);
     return 0;
 
