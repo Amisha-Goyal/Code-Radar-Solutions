@@ -11,16 +11,13 @@ int main(){
         
         if((arr[i]<arr[i+1]) || (arr[i]==arr[i+1])){
            sort=1;
-           break;
-        }
-        if(n==1){
-            sort=1;
+           
         }
     }
     if(sort){
         printf("Sorted");
     }
-    if(sort==0){
+    else{
         printf("Not Sorted");
 
     }
