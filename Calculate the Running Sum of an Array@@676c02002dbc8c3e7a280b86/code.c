@@ -1,13 +1,21 @@
 #include<stdio.h>
+void fun(int arr[],int n,int result[]);
 int main(){
-    int n,arr[20],sum=0;
+    int n,arr[20];
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=1;i<=n;i++){
-        printf("%d ",sum+i);
-
+    for(int i=0;i<n;i++){
+        printf("%d ",result[i]);
     }
-    return 0;
+
+}
+void fun(int arr,int n,int result[]){
+    int sum=0;
+    for(int i=0;i<n;i++){
+        sum+=arr[i];
+        result[i]=sum;
+    }
+    
 }
