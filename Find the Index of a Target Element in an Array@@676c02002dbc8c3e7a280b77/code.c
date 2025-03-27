@@ -10,7 +10,7 @@ int main(){
         if(arr[i]==target){
     
              printf("%d",i);
-            found=1
+            found=1;
 
              break;
 
