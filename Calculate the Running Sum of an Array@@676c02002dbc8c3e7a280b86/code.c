@@ -6,6 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    fun(arr,n,result);
     for(int i=0;i<n;i++){
         printf("%d ",result[i]);
     }
