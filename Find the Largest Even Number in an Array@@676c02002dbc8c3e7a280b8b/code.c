@@ -11,5 +11,6 @@ int main(){
         large=arr[i];
     }
     }
+    printf("%d",large);
     return 0;
 }
