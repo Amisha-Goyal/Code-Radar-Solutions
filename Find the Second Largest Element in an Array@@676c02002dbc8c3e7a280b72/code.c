@@ -13,7 +13,7 @@ int main(){
     }
     secondarr=arr[n-pos-1];
     for(int i=0;i<n;i++){
-        while(pos!=0){
+        while(i!=pos){
             if(arr[i]>secondarr){
                 secondarr=arr[i];
             }
