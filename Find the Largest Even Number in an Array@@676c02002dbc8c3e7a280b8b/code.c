@@ -7,13 +7,8 @@ int main(){
     }
     large=arr[0]%2;
     for(int i=0;i<n;i++){
-    while(arr[i]>large){
+    while(arr[i]>=large){
         large=arr[i];
-        break;
-    }
-    if(arr[i]%2!=0){
-        printf("-1");
-
     }
     }
     printf("%d",large);
