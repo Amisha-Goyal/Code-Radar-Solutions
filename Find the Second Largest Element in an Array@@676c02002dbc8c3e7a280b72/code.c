@@ -10,7 +10,7 @@ int main(){
             large=arr[i];
         }
     }
-    secondarr=[n-pos-1];
+    secondarr=arr[n-pos-1];
     for(int i=0;i<n;i++){
         while(pos!=0){
             if(arr[i]>secondlarge){
