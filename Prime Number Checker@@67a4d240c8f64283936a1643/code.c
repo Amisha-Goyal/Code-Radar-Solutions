@@ -4,7 +4,7 @@ int isPrime(int num){
         if(num%i==0){
             printf("1");
             // count++;
-        }}
+        }
         else{
             printf("0");
         }
