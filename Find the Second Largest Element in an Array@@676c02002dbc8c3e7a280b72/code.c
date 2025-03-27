@@ -8,6 +8,7 @@ int main(){
     for(int i=1;i<n;i++){
         while(arr[i]>large){
             large=arr[i];
+            pos=i;
         }
     }
     secondarr=arr[n-pos-1];
