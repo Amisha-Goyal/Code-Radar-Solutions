@@ -6,7 +6,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     large=arr[0]%2;
-    for(int i=0;i=<n;i++){
+    for(int i=0;i<=n;i++){
     while(arr[i]>large){
         large=arr[i];
     }
