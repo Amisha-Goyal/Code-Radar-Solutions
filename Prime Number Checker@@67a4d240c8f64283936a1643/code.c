@@ -1,13 +1,14 @@
-int isPrime(int n ){
-    int c;
-    for(int i=0;i<n;i++){
-        c=n%i;
-    
-    if(c==2){
-        printf("1");
+int isPrime(int num){
+    int count=0;
+    for(int i=1;i<=n;i++){
+        if(num%i==0){
+            count++;
+        }
+        if(count==2){
+            printf("1");
+        }
+        else{
+            printf("0");
+        }
     }
-    else{
-        printf("0");
-    }
-}
 }
