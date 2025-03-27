@@ -12,6 +12,9 @@ int main(){
              break;
 
         }
+        if(arr[i]!=target){
+            printf("-1");
+        }
     }
    
     return 0;
