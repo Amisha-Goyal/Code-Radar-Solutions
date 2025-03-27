@@ -19,7 +19,7 @@ int main(){
     if(count>n/2){
         printf("%d",no);
     }
-    else{
+    if(count==0){
          printf("-1");}
 }
    
