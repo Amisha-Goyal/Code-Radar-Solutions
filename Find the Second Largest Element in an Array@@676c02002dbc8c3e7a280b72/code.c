@@ -1,36 +1,25 @@
 #include<stdio.h>
 int main(){
-    int n,arr[20],large,pos,secondno,sort;
+    int n,arr[20],large=arr[0],secondarr,pos;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    large=arr[0];
-    for(int i=0;i<n;i++){
-        if(arr[i]>large){
+    for(int i=1;i<n;i++){
+        while(arr[i]>large){
             large=arr[i];
-            pos=i;
         }
     }
-    secondno=arr[n-pos-1];
-    
-    for(int i=0;i<n-1;i++){
-        if(i!=pos){
-            if(arr[i]>secondno){
-                secondno=arr[i];
-                printf("%d",secondno);
-                break;
-            }
-            if(arr[i]==secondno){
-                printf("-1");
-                break;
+    secondarr=[n-pos-1];
+    for(int i=0;i<n;i++){
+        while(pos!=0){
+            if(arr[i]>secondlarge){
+                secondlarge=arr[i];
             }
         }
-        
-
     }
-   
-    // printf("%d",secondno);
+    printf("%d",secondlarge);
     return 0;
 
+    
 }
