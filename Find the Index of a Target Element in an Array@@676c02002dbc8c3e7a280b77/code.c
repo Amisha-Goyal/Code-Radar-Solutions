@@ -14,6 +14,7 @@ int main(){
         }
         if(arr[i]!=target){
             printf("-1");
+            break;
         }
     }
    
