@@ -9,4 +9,4 @@ int isPrime(int num){
             printf("0");
         }
     
-}
+}}
