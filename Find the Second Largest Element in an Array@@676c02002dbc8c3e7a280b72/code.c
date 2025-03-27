@@ -13,12 +13,12 @@ int main(){
     secondarr=arr[n-pos-1];
     for(int i=0;i<n;i++){
         while(pos!=0){
-            if(arr[i]>secondlarge){
-                secondlarge=arr[i];
+            if(arr[i]>secondarr){
+                secondarr=arr[i];
             }
         }
     }
-    printf("%d",secondlarge);
+    printf("%d",secondarr);
     return 0;
 
     
