@@ -15,6 +15,6 @@ int isPrime(int n){
         }
     }
     if(count){
-        printf("%d",n);
+        return n;
     }
 }
