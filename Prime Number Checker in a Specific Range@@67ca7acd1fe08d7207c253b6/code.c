@@ -15,6 +15,6 @@ int isPrime(int n){
         }
     }
     if(count==2){
-        return n;
+        return 1;
     }
 }
