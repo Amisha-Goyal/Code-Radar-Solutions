@@ -1,6 +1,6 @@
 int printPrimesInRange(int a,int b){
     for(int i=a;i<=b;i++){
-        printf("%d ",isPrime(i));
+        printf("%d ", isPrime(i));
     }
     return 0;
 }
