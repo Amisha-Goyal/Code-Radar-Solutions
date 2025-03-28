@@ -5,7 +5,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=1;i<n;i++){
+    for(int i=1;i<n-1;i++){
         while(arr[i]>large){
             large=arr[i];
             pos=i;
