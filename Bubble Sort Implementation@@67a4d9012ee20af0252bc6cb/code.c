@@ -27,3 +27,4 @@ int printArray(int arr[],int n){
     }
     return 0;
 }
+}
