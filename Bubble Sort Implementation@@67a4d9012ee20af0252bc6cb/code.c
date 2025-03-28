@@ -6,8 +6,9 @@ int bubbleSort(int arr[],int n){
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;            
                 }
+                return arr[i];
         }
-        return ;
+         
     }}
 
 int printArray(int arr[],int n){
