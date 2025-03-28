@@ -1,4 +1,4 @@
-int fibonacciSeries(int n){
+int fibonacci(int n){
     if(n==0 ){
         return 0;
     }
@@ -6,9 +6,10 @@ int fibonacciSeries(int n){
         return 1;
     }
     else{
-        return (fibonacciSeries(n-1)+fibonacciSeries(n-2));
-    }
+        return (fibonacci(n-1)+fibonacci(n-2));
+    }}
+void fibonacciSeries(int n){
     for(int i=0;i<n;i++){
-        printf("%d",fibonacciSeries(i));
+        printf("%d",fibonacci(i));
     }
 }
