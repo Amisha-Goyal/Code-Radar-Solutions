@@ -4,7 +4,10 @@ int binarySearch(int arr[],int n,int target){
         if(arr[i]==target){
             pos=i;
             return pos;
-           
+           break;
+        }
+        else{
+            return -1;
         }
     }
     
