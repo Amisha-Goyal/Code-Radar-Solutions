@@ -1,26 +1,25 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
-    int n,arr[20],large=arr[0],secondarr,pos;
+    int n,arr[20],large=INT_MIN,second=INT_MIN;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=1;i<n-1;i++){
-        while(arr[i]>large){
-            large=arr[i];
-            pos=i;
-        }
-    }
-    secondarr=arr[n-pos-1];
     for(int i=0;i<n;i++){
-        while(i!=pos){
-            if(arr[i]>secondarr){
-                secondarr=arr[i];
-            }
+        if(arr[i]>large){
+            second=large;
+            large=arr[i];
+        }
+        else if(arr[i]>second && arr[i]!=large){
+            second=arr[i];
         }
     }
-    printf("%d",secondarr);
+    if(large==INT_MIN){
+        printf("-1");
+    }
+    else{
+        printf("%d ",second);
+    }
     return 0;
-
-    
 }
