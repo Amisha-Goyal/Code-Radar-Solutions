@@ -1,25 +1,24 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
-    int n,arr[20],small,pos=0,second;
+    int n,small=INT_MAX,second=INT_MAX;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    small=arr[0];
     for(int i=0;i<n;i++){
-        if(arr[i]<=small){
-            small=arr[i];
-            pos=i;
+        if(arr[i]<small){
+            second=small;
+            small=arr[i]
+        }
+        else if(arr[i]<second && arr[i]!=small){
+            if(second==INT_MAX){
+                printf("-1");
+            }
+            else{
+                printf("%d",second);
+            }
+            
         }
     }
-    second=arr[n-pos-1];
-    for(int i=0;i<n;i++){
-        if(arr[i]<second){
-            second=arr[i];
-        }
-
-    }
-    printf("%d",second);
-    return 0;
-
 }
