@@ -15,7 +15,7 @@ int main(){
             second=arr[i];
         }
     }
-    if(large==INT_MIN){
+    if(second==INT_MIN){
         printf("-1");
     }
     else{
