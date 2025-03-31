@@ -1,16 +1,21 @@
 #include<stdio.h>
-int main(){
-    int n,arr[20],large;
+#include<limits.h>
+itn main(){
+    int n,arr[20],large=INT_MIN;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    large=arr[0]%2;
-    for(int i=0;i<n-1;i++){
-    while(arr[i]>=large){
-        large=arr[i];
+    for(int i=0;i<n;i++){
+        if(arr[i]>large && arr[i]%2==0){
+            large=arr[i];
+
+        }
     }
+    if(large==INT_MAX){
+        printf("-1");
     }
-    printf("%d",large);
-    return 0;
+    else{
+        printf("%d",large);
+    }
 }
