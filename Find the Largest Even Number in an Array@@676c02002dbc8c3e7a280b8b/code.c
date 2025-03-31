@@ -12,7 +12,7 @@ int main(){
 
         }
     }
-    if(large==INT_MAX){
+    if(large==INT_MIN){
         printf("-1");
     }
     else{
