@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<limits.h>
-itn main(){
+int main(){
     int n,arr[20],large=INT_MIN;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
