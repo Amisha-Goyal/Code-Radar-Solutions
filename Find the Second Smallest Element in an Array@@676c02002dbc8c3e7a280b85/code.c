@@ -5,19 +5,10 @@ int main() {
     int n, i;
     
     // Input the number of elements in the array
-    printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
 
-    // If there are fewer than 2 elements, there's no second smallest number
-    if (n < 2) {
-        printf("Array must have at least two elements.\n");
-        return 0;
-    }
 
     int arr[n];
-    
-    // Input the array elements
-    printf("Enter the elements of the array: ");
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
