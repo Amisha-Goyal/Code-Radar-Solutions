@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]<small){
             second=small;
-            small=arr[i]
+            small=arr[i];
         }
         else if(arr[i]<second && arr[i]!=small){
             if(second==INT_MAX){
