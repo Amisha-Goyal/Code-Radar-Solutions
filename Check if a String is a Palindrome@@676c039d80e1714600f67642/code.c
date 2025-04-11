@@ -10,6 +10,7 @@ int main(){
         index++;
         
     }
+    char2[index]='\0';
     if(char2==str){
         printf("Yes");
     }
