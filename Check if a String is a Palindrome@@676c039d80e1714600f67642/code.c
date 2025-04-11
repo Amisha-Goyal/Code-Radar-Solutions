@@ -11,12 +11,12 @@ int main(){
         
     }
     char2[index]='\0';
-    if(char2==str){
+    if(strcmp(str,char2)==0){
         printf("Yes");
     }
     else{
         printf("No");
     }
-
+    return 0;
 
 }
