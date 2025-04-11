@@ -6,8 +6,9 @@ int main(){
     while(str[i]!='\0'){
         if(str[i]=='a'|| str[i]=='e'|| str[i]=='i' || str[i]=='o' || str[i]=='u'){
             count++;
-            i++;
+           
         }
+         i++;
     }
     printf("%d",count);
 }
