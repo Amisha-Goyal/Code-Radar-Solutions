@@ -10,7 +10,7 @@ int main(){
         index++;
         
     }
-    if(char2==str){
+    if(char2[index]==str[i]){
         printf("Yes");
     }
     else{
