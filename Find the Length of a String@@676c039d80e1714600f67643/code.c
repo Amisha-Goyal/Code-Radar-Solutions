@@ -8,5 +8,5 @@ int main(){
         i++;
 
     }
-    puts(count);
+    printf("%d",count);
 }
