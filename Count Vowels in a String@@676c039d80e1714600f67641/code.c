@@ -4,7 +4,7 @@ int main(){
     int count=0,i=0;
     scanf("%s",str);
     while(str[i]!='\0'){
-        if(str[i]=='a'|| str[i]=='e'|| str[i]=='i' || str[i]='o' || str[i]=='u'){
+        if(str[i]=='a'|| str[i]=='e'|| str[i]=='i' || str[i]=='o' || str[i]=='u'){
             count++;
             i++;
         }
